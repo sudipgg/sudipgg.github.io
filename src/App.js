@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar.js";
 import About from "./components/About.js";
 import Projects from "./components/Projects.js";
 import Skills from "./components/Skills.js";
-import Resume from "./components/Resume.js";
 import Blogs from "./components/Blogs.js";
 import Socials from "./components/Socials.js";
 import Footer from "./components/Footer.js";
@@ -56,7 +55,6 @@ const App = () => {
         <div ref={skillsRef}>
           <Skills darkMode={darkMode} />
         </div>
-        <Resume darkMode={darkMode} />
         <div ref={blogsRef}>
           <Blogs darkMode={darkMode} />
         </div>
